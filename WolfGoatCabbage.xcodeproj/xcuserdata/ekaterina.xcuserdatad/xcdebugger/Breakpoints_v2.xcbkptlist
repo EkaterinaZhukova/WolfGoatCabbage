@@ -128,38 +128,6 @@
             endingLineNumber = "96"
             landmarkName = "moveToTheLeft()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WolfGoatCabbage.AppDelegate.moveToTheLeft() -&gt; ()"
-                  moduleName = "WolfGoatCabbage"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
-                  timestampString = "564845973.236725"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96"
-                  offsetFromSymbolStart = "39">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (WolfGoatCabbage.Entity) -&gt; Swift.Bool in WolfGoatCabbage.AppDelegate.moveToTheLeft() -&gt; ()"
-                  moduleName = "WolfGoatCabbage"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
-                  timestampString = "564845973.238977"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "22">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -185,7 +153,7 @@
                   moduleName = "WolfGoatCabbage"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/Data/EntityService.swift"
-                  timestampString = "564845973.245156"
+                  timestampString = "564847052.042213"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -200,7 +168,7 @@
                   moduleName = "WolfGoatCabbage"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/Data/EntityService.swift"
-                  timestampString = "564845973.247152"
+                  timestampString = "564847052.043777"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
