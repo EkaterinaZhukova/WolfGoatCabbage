@@ -78,11 +78,6 @@ extension AppDelegate:LeftViewControllerDelegate{
         }
         arrToRight.first?.state = EntityState.isOnTheRight
         
-//
-//        let rightViewController = RightViewControllerSwift()
-//        rightViewController.delegate = self
-//        rightViewController.viewModel = self.viewModel
-        
         let rvc = RightViewController()
         rvc.viewModel = self.viewModel
         rvc.delegate = self
@@ -91,7 +86,7 @@ extension AppDelegate:LeftViewControllerDelegate{
     }
 }
 
-extension AppDelegate:RightViewControllerSwiftDelegate{
+extension AppDelegate:RightViewControllerDelegate{
     func moveToTheLeft() {
         let arrToRight = service.entityArr.filter { (entity) -> Bool in
             return entity.state == EntityState.isInBoat
@@ -104,7 +99,4 @@ extension AppDelegate:RightViewControllerSwiftDelegate{
         self.mainNavigationController.popViewController(animated: true)
     }
 
-}
-extension AppDelegate:RightViewControllerDelegate{
-    
 }
