@@ -37,6 +37,7 @@ class LeftViewController: UIViewController {
             let alert = UIAlertController(title: "You loose", message: "Try again", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {[weak self] action in
                 self?.delegate?.startNewGame()
+                self?.startNewGame()
             }))
             self.present(alert, animated: true, completion: nil)
         }
@@ -87,9 +88,7 @@ extension LeftViewController:UITableViewDelegate{
         
         return [inBoat,onBank]
     }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
+
 }
 
 extension LeftViewController:UITableViewDataSource{

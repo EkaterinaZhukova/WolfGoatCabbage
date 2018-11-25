@@ -24,12 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         leftViewController.viewModel = viewModel
         leftViewController.delegate = self
         
-        
-//
-//        let rvc = RightViewController()
-//        rvc.viewModel = viewModel
-//
-//        window?.rootViewController = rvc
+
         mainNavigationController.viewControllers = [leftViewController]
         window?.rootViewController = mainNavigationController
         
