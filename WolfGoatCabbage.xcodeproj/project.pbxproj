@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		C411E41321A955310093EC8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411E41221A955310093EC8B /* AppDelegate.swift */; };
-		C411E41521A955310093EC8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411E41421A955310093EC8B /* ViewController.swift */; };
-		C411E41821A955310093EC8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C411E41621A955310093EC8B /* Main.storyboard */; };
 		C411E41A21A955320093EC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C411E41921A955320093EC8B /* Assets.xcassets */; };
 		C411E41D21A955320093EC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C411E41B21A955320093EC8B /* LaunchScreen.storyboard */; };
+		C411E42521A955760093EC8B /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411E42421A955760093EC8B /* Entity.swift */; };
+		C411E42921A957D20093EC8B /* EntityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411E42821A957D20093EC8B /* EntityService.swift */; };
+		C411E42B21A958D90093EC8B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411E42A21A958D90093EC8B /* ViewModel.swift */; };
+		C411E42E21A95B740093EC8B /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411E42C21A95B740093EC8B /* LeftViewController.swift */; };
+		C411E42F21A95B740093EC8B /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C411E42D21A95B740093EC8B /* LeftViewController.xib */; };
+		C411E43521A968EF0093EC8B /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C411E43321A968EF0093EC8B /* RightViewController.xib */; };
+		C44B7C4D21A9AEAA0089D1C9 /* RightViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C4B21A9AEAA0089D1C9 /* RightViewControllerSwift.swift */; };
+		C44B7C4E21A9AEAA0089D1C9 /* RightViewControllerSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C4C21A9AEAA0089D1C9 /* RightViewControllerSwift.xib */; };
+		C44B7C5321A9B0120089D1C9 /* ViewModelRightCost.m in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C5221A9B0120089D1C9 /* ViewModelRightCost.m */; };
+		C4AD283A21AAB00600A11773 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C411E43A21A96AFB0093EC8B /* RightViewController.m */; };
+		C4C03BC721A9A25900A44B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C03BC621A9A25900A44B91 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C411E40F21A955310093EC8B /* WolfGoatCabbage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolfGoatCabbage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C411E41221A955310093EC8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C411E41421A955310093EC8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C411E41721A955310093EC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C411E41921A955320093EC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C411E41C21A955320093EC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C411E41E21A955320093EC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C411E42421A955760093EC8B /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		C411E42821A957D20093EC8B /* EntityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityService.swift; sourceTree = "<group>"; };
+		C411E42A21A958D90093EC8B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C411E42C21A95B740093EC8B /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		C411E42D21A95B740093EC8B /* LeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		C411E43021A968EF0093EC8B /* WolfGoatCabbage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WolfGoatCabbage-Bridging-Header.h"; sourceTree = "<group>"; };
+		C411E43321A968EF0093EC8B /* RightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		C411E43921A96AFB0093EC8B /* RightViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = RightViewController.h; sourceTree = "<group>"; };
+		C411E43A21A96AFB0093EC8B /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		C44B7C4B21A9AEAA0089D1C9 /* RightViewControllerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewControllerSwift.swift; sourceTree = "<group>"; };
+		C44B7C4C21A9AEAA0089D1C9 /* RightViewControllerSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightViewControllerSwift.xib; sourceTree = "<group>"; };
+		C44B7C5121A9B0120089D1C9 /* ViewModelRightCost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelRightCost.h; sourceTree = "<group>"; };
+		C44B7C5221A9B0120089D1C9 /* ViewModelRightCost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModelRightCost.m; sourceTree = "<group>"; };
+		C4C03BC621A9A25900A44B91 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +75,58 @@
 		C411E41121A955310093EC8B /* WolfGoatCabbage */ = {
 			isa = PBXGroup;
 			children = (
+				C44B7C4A21A9AE940089D1C9 /* RightViewControllerSwift */,
+				C411E43721A969690093EC8B /* LeftCost */,
+				C411E43021A968EF0093EC8B /* WolfGoatCabbage-Bridging-Header.h */,
+				C411E43C21A981150093EC8B /* Data */,
+				C411E43821A969830093EC8B /* RightCost */,
 				C411E41221A955310093EC8B /* AppDelegate.swift */,
-				C411E41421A955310093EC8B /* ViewController.swift */,
-				C411E41621A955310093EC8B /* Main.storyboard */,
 				C411E41921A955320093EC8B /* Assets.xcassets */,
 				C411E41B21A955320093EC8B /* LaunchScreen.storyboard */,
 				C411E41E21A955320093EC8B /* Info.plist */,
+				C4C03BC621A9A25900A44B91 /* Main.storyboard */,
 			);
 			path = WolfGoatCabbage;
+			sourceTree = "<group>";
+		};
+		C411E43721A969690093EC8B /* LeftCost */ = {
+			isa = PBXGroup;
+			children = (
+				C411E42C21A95B740093EC8B /* LeftViewController.swift */,
+				C411E42D21A95B740093EC8B /* LeftViewController.xib */,
+				C411E42A21A958D90093EC8B /* ViewModel.swift */,
+			);
+			path = LeftCost;
+			sourceTree = "<group>";
+		};
+		C411E43821A969830093EC8B /* RightCost */ = {
+			isa = PBXGroup;
+			children = (
+				C411E43321A968EF0093EC8B /* RightViewController.xib */,
+				C411E43921A96AFB0093EC8B /* RightViewController.h */,
+				C411E43A21A96AFB0093EC8B /* RightViewController.m */,
+				C44B7C5121A9B0120089D1C9 /* ViewModelRightCost.h */,
+				C44B7C5221A9B0120089D1C9 /* ViewModelRightCost.m */,
+			);
+			path = RightCost;
+			sourceTree = "<group>";
+		};
+		C411E43C21A981150093EC8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C411E42421A955760093EC8B /* Entity.swift */,
+				C411E42821A957D20093EC8B /* EntityService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C44B7C4A21A9AE940089D1C9 /* RightViewControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C44B7C4B21A9AEAA0089D1C9 /* RightViewControllerSwift.swift */,
+				C44B7C4C21A9AEAA0089D1C9 /* RightViewControllerSwift.xib */,
+			);
+			path = RightViewControllerSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +161,7 @@
 				TargetAttributes = {
 					C411E40E21A955310093EC8B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,8 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C411E41D21A955320093EC8B /* LaunchScreen.storyboard in Resources */,
+				C4C03BC721A9A25900A44B91 /* Main.storyboard in Resources */,
+				C411E43521A968EF0093EC8B /* RightViewController.xib in Resources */,
+				C411E42F21A95B740093EC8B /* LeftViewController.xib in Resources */,
 				C411E41A21A955320093EC8B /* Assets.xcassets in Resources */,
-				C411E41821A955310093EC8B /* Main.storyboard in Resources */,
+				C44B7C4E21A9AEAA0089D1C9 /* RightViewControllerSwift.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +204,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C411E41521A955310093EC8B /* ViewController.swift in Sources */,
+				C411E42921A957D20093EC8B /* EntityService.swift in Sources */,
+				C44B7C5321A9B0120089D1C9 /* ViewModelRightCost.m in Sources */,
 				C411E41321A955310093EC8B /* AppDelegate.swift in Sources */,
+				C411E42E21A95B740093EC8B /* LeftViewController.swift in Sources */,
+				C411E42B21A958D90093EC8B /* ViewModel.swift in Sources */,
+				C4AD283A21AAB00600A11773 /* RightViewController.m in Sources */,
+				C44B7C4D21A9AEAA0089D1C9 /* RightViewControllerSwift.swift in Sources */,
+				C411E42521A955760093EC8B /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C411E41621A955310093EC8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C411E41721A955310093EC8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C411E41B21A955320093EC8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,7 +349,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2G5GUBYCP6;
 				INFOPLIST_FILE = WolfGoatCabbage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,7 +359,11 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ekaterina.WolfGoatCabbage;
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WolfGoatCabbage/WolfGoatCabbage-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,7 +373,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2G5GUBYCP6;
 				INFOPLIST_FILE = WolfGoatCabbage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +383,10 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ekaterina.WolfGoatCabbage;
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WolfGoatCabbage/WolfGoatCabbage-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
