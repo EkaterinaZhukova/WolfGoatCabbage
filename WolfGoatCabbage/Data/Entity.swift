@@ -7,11 +7,13 @@
 //
 
 import Foundation
-enum EntityType:String{
-    case Wolf = "Wolf"
-    case Goat = "Goat"
-    case Cabbage = "Cabbage"
 
+
+let entityStrings = ["Wolf","Goat","Cabbage"]
+@objc enum EntityType:Int{
+    case Wolf = 0
+    case Goat = 1
+    case Cabbage = 2
 }
 
 @objc enum EntityState:Int{
@@ -23,11 +25,11 @@ enum EntityType:String{
 
 class Entity: NSObject {
     private static var id_ = 0
-    let type:EntityType
-    var state:EntityState
-    let id:Int
+    @objc let type:EntityType
+    @objc var state:EntityState
+    @objc let id:Int
     
-    init(type: EntityType) {
+    @objc init(type: EntityType) {
         Entity.id_ += 1
         self.type = type
         self.id = Entity.id_

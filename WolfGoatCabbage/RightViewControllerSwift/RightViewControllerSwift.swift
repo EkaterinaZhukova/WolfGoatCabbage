@@ -31,7 +31,8 @@ class RightViewControllerSwift: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        (self.entityArr, self.entityId) = viewModel?.fetchData(for: .isOnTheRight) ?? ([],[])
+        self.entityArr = viewModel?.fetchData(for: .isOnTheRight) ?? []
+        self.entityId = viewModel?.fetchId(for: .isOnTheRight) ?? []
         self.tableView.reloadData()
         let res = self.viewModel?.play(on: EntityState.isOnTheRight)
         if(res == false){

@@ -29,7 +29,8 @@ class LeftViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        (self.entityArr, self.entityId) = viewModel?.fetchData(for: .isOnTheLeft) ?? ([],[])
+        self.entityArr = viewModel?.fetchData(for: .isOnTheLeft) ?? []
+        self.entityId = viewModel?.fetchId(for: .isOnTheLeft) ?? []
         self.tableView.reloadData()
         let res = viewModel?.play(on: .isOnTheLeft)
         if(res == false){
@@ -50,7 +51,8 @@ class LeftViewController: UIViewController {
         print("LeftViewController deinit")
     }
     func startNewGame(){
-        (self.entityArr, self.entityId) = viewModel?.fetchData(for: .isOnTheLeft) ?? ([],[])
+        self.entityArr = viewModel?.fetchData(for: .isOnTheLeft) ?? []
+        self.entityId = viewModel?.fetchId(for: .isOnTheLeft) ?? []
         self.tableView.reloadData()
         
     }
@@ -61,7 +63,7 @@ extension LeftViewController:UITableViewDelegate{
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let cell = tableView.cellForRow(at: indexPath)
-        let inBoard = UITableViewRowAction(style: UITableViewRowAction.Style.default, title: "in boat") {[weak self] (action,indexPath) in
+        let inBoat = UITableViewRowAction(style: UITableViewRowAction.Style.default, title: "in boat") {[weak self] (action,indexPath) in
             print("In boat for \(indexPath.row)")
             if let id = self?.entityId[indexPath.row]{
                 self?.viewModel?.modelChanged(at:id, with: .isInBoat)
@@ -69,7 +71,9 @@ extension LeftViewController:UITableViewDelegate{
                 cell?.textLabel?.textColor = UIColor.white
             }
             
+            
         }
+        inBoat.backgroundColor = UIColor.red
         let onBank = UITableViewRowAction(style: UITableViewRowAction.Style.destructive, title: "on bank", handler: {[weak self] (action, indexPath) in
             print("itme \(indexPath.row) is on bank")
             if let id = self?.entityId[indexPath.row]{
@@ -79,7 +83,9 @@ extension LeftViewController:UITableViewDelegate{
             }
         })
         
-        return [inBoard,onBank]
+        onBank.backgroundColor = UIColor.blue
+        
+        return [inBoat,onBank]
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

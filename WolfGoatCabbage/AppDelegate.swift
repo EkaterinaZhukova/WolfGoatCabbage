@@ -16,15 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var service = EntityService()
     var viewModel:ViewModel?
     let leftViewController = LeftViewController()
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         viewModel = ViewModel(service: self.service)
-        //rightObjective?.delegate = self
     
         self.mainNavigationController.isNavigationBarHidden = true
         leftViewController.viewModel = viewModel
         leftViewController.delegate = self
         
+        
+//
+//        let rvc = RightViewController()
+//        rvc.viewModel = viewModel
+//
+//        window?.rootViewController = rvc
         mainNavigationController.viewControllers = [leftViewController]
         window?.rootViewController = mainNavigationController
         
@@ -56,7 +61,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         service = EntityService()
         viewModel = ViewModel(service: service)
         leftViewController.viewModel = viewModel
-        //rightViewController.viewModel = viewModel
         self.mainNavigationController.popToRootViewController(animated: true)
     }
     
@@ -73,10 +77,16 @@ extension AppDelegate:LeftViewControllerDelegate{
             return
         }
         arrToRight.first?.state = EntityState.isOnTheRight
-        let rightViewController = RightViewControllerSwift()
-        rightViewController.delegate = self
-        rightViewController.viewModel = self.viewModel
-        mainNavigationController.pushViewController(rightViewController, animated: true)
+        
+//
+//        let rightViewController = RightViewControllerSwift()
+//        rightViewController.delegate = self
+//        rightViewController.viewModel = self.viewModel
+        
+        let rvc = RightViewController()
+        rvc.viewModel = self.viewModel
+        rvc.delegate = self
+        mainNavigationController.pushViewController(rvc, animated: true)
         
     }
 }
@@ -95,6 +105,6 @@ extension AppDelegate:RightViewControllerSwiftDelegate{
     }
 
 }
-//extension AppDelegate:RightViewControllerDelegate{
-//    
-//}
+extension AppDelegate:RightViewControllerDelegate{
+    
+}

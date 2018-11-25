@@ -26,13 +26,188 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WolfGoatCabbage/LeftCost/LeftViewController.swift"
-            timestampString = "564780841.1952651"
+            timestampString = "564846132.533717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "startNewGame()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfGoatCabbage/RightCost/RightViewController.m"
+            timestampString = "564846132.533792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfGoatCabbage/AppDelegate.swift"
+            timestampString = "564846132.5342129"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WolfGoatCabbage.AppDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
+                  timestampString = "564845497.267918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WolfGoatCabbage.AppDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
+                  timestampString = "564845497.269707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WolfGoatCabbage.AppDelegate.init() -&gt; WolfGoatCabbage.AppDelegate"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
+                  timestampString = "564845497.271397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfGoatCabbage/AppDelegate.swift"
+            timestampString = "564846132.534268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "moveToTheLeft()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WolfGoatCabbage.AppDelegate.moveToTheLeft() -&gt; ()"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
+                  timestampString = "564845973.236725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WolfGoatCabbage.Entity) -&gt; Swift.Bool in WolfGoatCabbage.AppDelegate.moveToTheLeft() -&gt; ()"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/AppDelegate.swift"
+                  timestampString = "564845973.238977"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfGoatCabbage/Data/EntityService.swift"
+            timestampString = "564846132.53432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "updateModel(index:with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WolfGoatCabbage.EntityService.updateModel(index: Swift.Int, with: WolfGoatCabbage.EntityState) -&gt; ()"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/Data/EntityService.swift"
+                  timestampString = "564845973.245156"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WolfGoatCabbage.Entity) -&gt; Swift.Bool in WolfGoatCabbage.EntityService.updateModel(index: Swift.Int, with: WolfGoatCabbage.EntityState) -&gt; ()"
+                  moduleName = "WolfGoatCabbage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekaterina/Apalon/WolfGoatCabbage/WolfGoatCabbage/Data/EntityService.swift"
+                  timestampString = "564845973.247152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

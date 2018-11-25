@@ -9,28 +9,35 @@
 import Foundation
 
 class ViewModel: NSObject{
-    private var service:EntityService
+     @objc var service:EntityService
     
-    init(service:EntityService) {
+    @objc init(service:EntityService) {
         self.service = service
         super.init()
     }
-    func modelChanged(at index:Int,with state:EntityState){
+    @objc func modelChanged(at index:Int,with state:EntityState){
         service.updateModel(index: index, with: state)
     }
-    func play(on cost:EntityState) -> Bool{
+    @objc func play(on cost:EntityState) -> Bool{
         return service.play(on: cost)
     }
-    func isWin() -> Bool{
+    @objc func isWin() -> Bool{
         return service.isWin()
     }
 
     
-    func fetchData(for state:EntityState) -> ([String],[Int]){
+    @objc func fetchData(for state:EntityState) -> [String]{
         let entities = service.getEntities().filter { (item) -> Bool in
             return item.state == state
         }
-        return (entities.map{$0.type.rawValue},entities.map{$0.id})
+        return (entities.map{entityStrings[$0.type.rawValue]})
+    }
+
+    @objc func fetchId(for state:EntityState) -> [Int]{
+        let entities = service.getEntities().filter { (item) -> Bool in
+            return item.state == state
+        }
+        return entities.map{$0.id}
     }
 
 }

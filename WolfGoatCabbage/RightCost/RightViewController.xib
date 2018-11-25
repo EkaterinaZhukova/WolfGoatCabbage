@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RightViewController">
             <connections>
+                <outlet property="tableView" destination="gJ2-cH-bdg" id="btv-qN-6Zk"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -30,6 +31,9 @@
                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Go !"/>
+                    <connections>
+                        <action selector="moveToTheLeft:" destination="-1" eventType="touchUpInside" id="MJ1-w5-5YY"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

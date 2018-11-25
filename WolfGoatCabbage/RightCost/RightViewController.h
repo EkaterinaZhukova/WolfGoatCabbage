@@ -7,16 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "WolfGoatCabbage-Swift.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RightViewController : UIViewController
-//@property(nonatomic,weak) ViewModel* viewModel;
-@property(nonatomic,strong) NSArray* entityArr;
+@protocol RightViewControllerDelegate <NSObject>
 
+-(void) startNewGame;
 -(void) moveToTheLeft;
-//-(void) setViewModel:
+
+@end
+
+@class ViewModel;
+
+@interface RightViewController : UIViewController
+@property(nonatomic,strong) NSArray* entityArr;
+@property(nonatomic,strong) NSArray* entityID;
+@property(nonatomic,weak)ViewModel* viewModel;
+@property(nonatomic,weak) id<RightViewControllerDelegate> delegate;
+
 @end
 
 NS_ASSUME_NONNULL_END

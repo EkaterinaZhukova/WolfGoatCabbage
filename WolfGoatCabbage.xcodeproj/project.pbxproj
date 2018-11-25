@@ -18,7 +18,6 @@
 		C411E43521A968EF0093EC8B /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C411E43321A968EF0093EC8B /* RightViewController.xib */; };
 		C44B7C4D21A9AEAA0089D1C9 /* RightViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C4B21A9AEAA0089D1C9 /* RightViewControllerSwift.swift */; };
 		C44B7C4E21A9AEAA0089D1C9 /* RightViewControllerSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C4C21A9AEAA0089D1C9 /* RightViewControllerSwift.xib */; };
-		C44B7C5321A9B0120089D1C9 /* ViewModelRightCost.m in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C5221A9B0120089D1C9 /* ViewModelRightCost.m */; };
 		C4AD283A21AAB00600A11773 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C411E43A21A96AFB0093EC8B /* RightViewController.m */; };
 		C4C03BC721A9A25900A44B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C03BC621A9A25900A44B91 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,6 @@
 		C411E43A21A96AFB0093EC8B /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 		C44B7C4B21A9AEAA0089D1C9 /* RightViewControllerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewControllerSwift.swift; sourceTree = "<group>"; };
 		C44B7C4C21A9AEAA0089D1C9 /* RightViewControllerSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightViewControllerSwift.xib; sourceTree = "<group>"; };
-		C44B7C5121A9B0120089D1C9 /* ViewModelRightCost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelRightCost.h; sourceTree = "<group>"; };
-		C44B7C5221A9B0120089D1C9 /* ViewModelRightCost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModelRightCost.m; sourceTree = "<group>"; };
 		C4C03BC621A9A25900A44B91 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,8 +102,6 @@
 				C411E43321A968EF0093EC8B /* RightViewController.xib */,
 				C411E43921A96AFB0093EC8B /* RightViewController.h */,
 				C411E43A21A96AFB0093EC8B /* RightViewController.m */,
-				C44B7C5121A9B0120089D1C9 /* ViewModelRightCost.h */,
-				C44B7C5221A9B0120089D1C9 /* ViewModelRightCost.m */,
 			);
 			path = RightCost;
 			sourceTree = "<group>";
@@ -205,7 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C411E42921A957D20093EC8B /* EntityService.swift in Sources */,
-				C44B7C5321A9B0120089D1C9 /* ViewModelRightCost.m in Sources */,
 				C411E41321A955310093EC8B /* AppDelegate.swift in Sources */,
 				C411E42E21A95B740093EC8B /* LeftViewController.swift in Sources */,
 				C411E42B21A958D90093EC8B /* ViewModel.swift in Sources */,
